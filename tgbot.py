@@ -44,7 +44,7 @@ from btns import (
     savollar_menu,
 )
 
-TOKEN = os.getenv("BOT_TOKEN", "").strip()
+TOKEN = os.getenv("BOT_TOKEN", "8834396024:AAGFC_J3Amw9UCSYd-daopLG2dn6U-qZUKU").strip()
 DB_NAME = os.getenv("BOT_DB", "bot.db")
 WEBAPP_HOST = os.getenv("WEBAPP_HOST", "0.0.0.0")
 WEBAPP_PORT = int(os.getenv("PORT", os.getenv("WEBAPP_PORT", "8080")))
